@@ -72,6 +72,7 @@ However, looking at these idealized limits has led to the greatest breakthroughs
       - Pass both qubits through Hadamard gates to put them into superposition. 
         - The top qubit becomes $|+\rangle$.
         - The bottom qubit becomes $|-\rangle$.
+        - ![Deutsch-circuit](Deutsch-circuit.png)
     - The Superposition query:
       - Now send both qubits into unitary query gate ($U_f$). Because the top qubit is in a superposition of $|0\rangle$ and $|1\rangle$, we are querying index 0 and index 1 at the exact same time.
     - Phase Kickback:
